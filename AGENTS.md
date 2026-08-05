@@ -64,9 +64,14 @@ to the visitor's locale. See `adrs/0001-multilingual.md` and `cronologia/core#9`
 - **No backend, ever.** The site is static HTML on GitHub Pages; nothing
   translates at runtime. `es`/`pt` are **pre-authored, committed** caches in
   `data/i18n/` baked into the static pages at build time. Fill them by authoring
-  the translations and committing them; `node scripts/translate.js --stats`
-  reports which strings still need one. (An env-configured MT service is an
-  optional convenience — not required.) Keep them fresh when English changes.
+  the translations and committing them. **`node --test` is the authority on what
+  is missing** — `test/i18n-completeness.test.js` mirrors the compiler's walk and
+  names every untranslated string. `node scripts/translate.js --stats` is NOT:
+  it does not know about `SUBTREE_TRANSLATABLE`, so it cannot see keys that are
+  prose only inside an allowlisted subtree (`references.publisherNote`, the whole
+  `approvalLadder`) and it reports coverage that is too high. (An env-configured
+  MT service is an optional convenience — not required.) Keep the caches fresh
+  when English changes.
 - Localization is **data-level** (a key-based walk in `build.js`), so every
   renderer — chronology, genealogy, charts, glossary links — is covered.
 - **Never translated:** reference titles/publishers, proper names, URLs, dates, ids.
@@ -75,7 +80,10 @@ to the visitor's locale. See `adrs/0001-multilingual.md` and `cronologia/core#9`
   `build.js` maps a subtree's key to the keys that are prose *inside* it, and
   the walk resolves it as it descends (nearest enclosing subtree wins, and it
   is sticky). `references` ships: bibliography passes through verbatim except
-  `publisherNote`, which is the project's own voice. A repo whose dataset has
+  `publisherNote`, which is the project's own voice. `approvalLadder` ships too:
+  its prose keys are listed and `status` is deliberately absent, because it is a
+  closed enum that the general walk would translate into "Investigado" and kill
+  the localized build with "unknown status". A repo whose dataset has
   another such subtree adds one entry in the `subtree-allowlists` ADOPT block —
   in `olavo`, a bibliography where `note`/`sourceNote`/`label`/`blurb`/`role`/
   `when` are prose and `title` is a book's name and must not be translated.
@@ -96,6 +104,22 @@ byte-identical to a build without the feature. Shapes are shown in
 
 - **`meta.vizChips[]`** — header pill links to the visual sections
   (`{ "href": "#lineage", "label": "🌳 Genealogy" }`).
+- **`approvalLadder`** — how far a reported apparition got through Church
+  judgment (`renderApprovalLadder`), rendered at the TOP of the page, above
+  `about`, because that is what a reader comes for and what devotional sources
+  most often blur. One `stages[]` rung per authority, declared in data (real
+  cases do not all have three), each with a `label`, a closed-enum `status`, and
+  prose `who`/`outcome`. Four properties the renderer enforces and any redesign
+  must keep: **no overall verdict** for the case — rungs speak only for
+  themselves, and two acts about different objects are two rungs; the three
+  kinds of "nothing here" stay apart (`reported-undocumented` = a ruling is
+  claimed and no document located, `not-found` = a statement about our evidence,
+  `not-reached` = a statement about the case); every rung carries `sources[]` or
+  an explicit `noDocument` note saying what was searched, or the build fails;
+  and no colour-only encoding — status is always text plus a glyph. **In THIS
+  repo the ladder's whole point is an absence**: the 1930s–40s diocesan rung is
+  `reported-undocumented`, never `negative`. Read the renderer's header comment
+  in `build.js` before touching it.
 - **`lineage`** (alias `episcopalLineage`, the original fsspx key) — genealogy
   / lineage trees (`renderLineageSection`). One `trees[]` entry per branch;
   `separate: true` sets a branch apart visually for lines that must NOT be
