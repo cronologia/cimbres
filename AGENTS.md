@@ -21,7 +21,11 @@ Church judgments. The dataset records who reported what and when, and what the
 Church ruled and when, citing the ruling document; it never asserts the
 supernatural claim as fact. Church-approval status is the critical field —
 see `context.md` for the current state of it. Record disagreements instead of
-resolving them; use `dateVerified` honestly; never fabricate a citation. Check
+resolving them — in `dateNote`, which as of core#73 RENDERS beneath its event
+and is translatable, so it is reader-facing prose and every one of them needs
+an es and a pt entry (this dataset currently carries none at all, which is a
+gap, not a clean bill: several events here rest on a single devotional date).
+Use `dateVerified` honestly; never fabricate a citation. Check
 `KEYWORDS.md` before searching, and log verified zeros there.
 
 ## Repository map
@@ -116,10 +120,17 @@ byte-identical to a build without the feature. Shapes are shown in
   claimed and no document located, `not-found` = a statement about our evidence,
   `not-reached` = a statement about the case); every rung carries `sources[]` or
   an explicit `noDocument` note saying what was searched, or the build fails;
-  and no colour-only encoding — status is always text plus a glyph. **In THIS
-  repo the ladder's whole point is an absence**: the 1930s–40s diocesan rung is
-  `reported-undocumented`, never `negative`. Read the renderer's header comment
-  in `build.js` before touching it.
+  and no colour-only encoding — status is always text plus a glyph. `adjacent`
+  (core#68) is for a real dated act about a DIFFERENT object — a feast, a cult,
+  a person's sanctity — and is deliberately not green. **In THIS repo the
+  ladder's whole point is an absence**: the 1930s–40s diocesan rung is
+  `reported-undocumented`, never `negative`; and Irmã Adélia's beatification
+  cause is `adjacent`, not `pending`, because on a ladder of apparition
+  judgments the load-bearing fact about that rung is that it judges a PERSON —
+  "Under way" beside the file's only Roman act invites the very
+  "Vatican recognizes Cimbres" reading the rung exists to refuse. That the
+  cause is in progress is carried by its `when` and its `outcome`, which say so
+  twice. Read the renderer's header comment in `build.js` before touching it.
 - **`lineage`** (alias `episcopalLineage`, the original fsspx key) — genealogy
   / lineage trees (`renderLineageSection`). One `trees[]` entry per branch;
   `separate: true` sets a branch apart visually for lines that must NOT be
