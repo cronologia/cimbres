@@ -762,7 +762,7 @@
       "title": "Carta Pastoral: A Diocese de Pesqueira e as presumíveis aparições de Nossa Senhora da Graça (Orientações espirituais e pastorais)",
       "url": "https://cdn.diocesedepesqueira.com.br/wp-content/uploads/2021/10/CARTA-PASTORAL-DOM-JOSE-LUIZ.pdf",
       "publisher": "Diocese de Pesqueira — Subsídios Pastorais 1, Pesqueira, 2 October 2021",
-      "type": "primary",
+      "type": "official",
       "publisherNote": "The act itself, published by the diocese that issued it — primary for the 2021 declaration's wording, date and scope. Confessional by nature: it is the bishop's own account of the case as well as his judgment on it."
     },
     {
@@ -803,7 +803,7 @@
       "url": "https://santuarionsdasgracas.com.br/historia-do-santuario/",
       "publisher": "Santuário Nossa Senhora das Graças — Cimbres",
       "publisherNote": "The shrine's own account — devotional perspective, and the only source for several dates (1942 enthronement, 1998 sanctuary decree). The site returns 403 to non-browser clients; it loads with a normal browser User-Agent.",
-      "type": "website"
+      "type": "web"
     },
     {
       "id": "salvemariaimaculada-cimbres",
@@ -811,14 +811,14 @@
       "url": "https://salvemariaimaculada.com.br/cimbres-aparicoes-de-nossa-senhora/",
       "publisher": "Salve Maria Imaculada",
       "publisherNote": "A devotional site, labeled as such: a compilation carrying transcriptions of the interrogations; used only for detail dates, always flagged.",
-      "type": "website"
+      "type": "web"
     },
     {
       "id": "arautos-cimbres",
       "title": "As aparições em Cimbres — Um maternal aviso",
       "url": "https://revista.arautos.org/as-aparicoes-em-cimbres-um-maternal-aviso/",
       "publisher": "Revista Arautos do Evangelho",
-      "type": "magazine",
+      "type": "news",
       "publisherNote": "The magazine of the Heralds of the Gospel — a devotional perspective, cited as such."
     },
     {
@@ -842,7 +842,7 @@
       "title": "Caso Povo Indígena Xucuru e seus membros vs. Brasil — Resumo oficial da sentença de 5 de fevereiro de 2018",
       "url": "https://www.corteidh.or.cr/docs/casos/articulos/resumen_346_por.pdf",
       "publisher": "Corte Interamericana de Direitos Humanos",
-      "type": "primary",
+      "type": "legal",
       "publisherNote": "The court's own official summary of the judgment — primary for the ruling's date and content."
     },
     {
@@ -898,7 +898,7 @@
       "title": "Irmã Adélia — publicações e biografia (site oficial da causa)",
       "url": "https://irmaadelia.com.br/publicacoes/",
       "publisher": "Instituto das Religiosas da Instrução Cristã (Instituto RIC) / Rede Damas Educacional",
-      "type": "website",
+      "type": "web",
       "publisherNote": "The site of the congregation promoting the beatification cause — an interested party, cited for the bibliography it lists and the acts it reports, not as an assessment of them."
     },
     {
@@ -906,7 +906,7 @@
       "title": "Cerimônia de doação de registros históricos de irmã Adélia ao Instituto é celebrada",
       "url": "https://www.institutoric.org/noticias/cerimonia-de-doacao-de-registros-historicos-de-irma-adelia-ao-instituto-e-celebrada",
       "publisher": "Instituto das Religiosas da Instrução Cristã, 2023",
-      "type": "website",
+      "type": "web",
       "publisherNote": "The receiving institution's own report of the donation — primary for the date and the contents, confessional about their meaning."
     },
     {
@@ -922,7 +922,7 @@
       "title": "Pe. Joseph Kehrle",
       "url": "https://santuarionsdasgracas.com.br/pe-joseph-kehrle/",
       "publisher": "Santuário Nossa Senhora das Graças — Cimbres",
-      "type": "website",
+      "type": "web",
       "publisherNote": "The shrine's biographical page — devotional, and internally imprecise (it prints his birth year as 1981). Used for the posts and dates it gives where they agree with other accounts, and flagged where they do not."
     },
     {
@@ -930,7 +930,7 @@
       "title": "Maria da Conceição Silva",
       "url": "https://santuarionsdasgracas.com.br/maria-da-conceicao-silva/",
       "publisher": "Santuário Nossa Senhora das Graças — Cimbres",
-      "type": "website",
+      "type": "web",
       "publisherNote": "The shrine's biographical page for the elder seer — the only reachable source giving her birthplace, parents, death date and burial place; devotional, and single-sourced for all of them."
     },
     {
@@ -938,7 +938,7 @@
       "title": "Irmã Adélia — biografia e datas",
       "url": "https://santuarionsdasgracas.com.br/irma-adelia/",
       "publisher": "Santuário Nossa Senhora das Graças — Cimbres",
-      "type": "website",
+      "type": "web",
       "publisherNote": "The shrine's biographical page, and the most precise reachable list of the dates of her religious formation (postulancy, noviciate, vows). Devotional; the formation dates are not independently confirmed."
     },
     {
