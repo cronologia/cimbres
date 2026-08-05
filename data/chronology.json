@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "title": "Nossa Senhora das Graças de Cimbres — Cronologia",
+    "subtitle": "Chronology of the reported Marian apparitions at Cimbres, Pesqueira, Brazil (1936–present)",
+    "description": "An open, source-referenced chronology of the reported 1936 apparitions of Nossa Senhora das Graças at Cimbres (Pesqueira, Pernambuco, Brazil), the Church's response to them, and the shrine that grew at the site.",
+    "language": "en",
+    "siteUrl": "https://cronologia.github.io/cimbres/",
+    "lastUpdated": "2026-08-05",
+    "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded here as REPORTED events: the dataset documents who reported what and when, and what Church authorities ruled and when — it does not assert the supernatural claim as fact. Sourcing for this subject is thin: much of the literature is devotional, and several dates rest on a single devotional source; those are flagged with a ? mark. Contested claims are attributed to their authors. Corrections against primary sources are welcome.",
+    "vizChips": [
+      {
+        "href": "#chronology",
+        "label": "📜 Chronology"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A series of Marian apparitions reported in 1936 (and, per some accounts, into 1937) by two adolescent girls at Sítio Guarda, near the village of Cimbres, municipality of Pesqueira, Pernambuco, Brazil, attributed by the devotion to Nossa Senhora das Graças (Our Lady of Grace).",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "wikipedia-aparicoes-cimbres"
+      ]
+    },
+    {
+      "label": "Reported seers",
+      "value": "Maria da Conceição Silva (1920–1999), then 16, and Maria da Luz Teixeira de Carvalho (1922–2013), then 13 — the latter later a religious sister under the name Irmã Adélia.",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "aci-fase-diocesana-2024"
+      ]
+    },
+    {
+      "label": "Church status",
+      "value": "No formal diocesan ruling from the 1930s–40s has been located: a 2023 academic study concludes the devotion consolidated 'without major institutional interference from the local Curia or the Roman Curia', while devotional literature reports informal dismissal and imposed silence. The first official pronouncement came on 2 October 2021, when Bishop José Luiz Ferreira Salles of Pesqueira published a pastoral letter recognizing the 'presumíveis aparições' (presumed apparitions), stating they show 'great probability of supernatural character', and permitting the devotion. This is a diocesan act, not a papal one.",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "aci-carta-pastoral-2021",
+        "arautos-cimbres"
+      ]
+    },
+    {
+      "label": "The site today",
+      "value": "A diocesan shrine — the Santuário de Nossa Senhora das Graças at Aldeia Guarda, Vila de Cimbres — with an annual pilgrimage feast on 31 August. The village and shrine lie inside the demarcated Xukuru Indigenous Land on the Serra do Ororubá.",
+      "sources": [
+        "santuario-historia",
+        "socioambiental-xukuru"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "year": 1918,
+      "date": "1918-08-02",
+      "dateVerified": true,
+      "place": "Pesqueira, Pernambuco, Brazil",
+      "title": "The episcopal see is transferred to Pesqueira",
+      "text": "The Diocese of Floresta (created 1910) is transferred to Pesqueira, taking in the parishes of Pesqueira and Cimbres among others; the Diocese of Pesqueira is the ecclesiastical authority over all later events in this chronology.",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "catholic-hierarchy-pesqueira"
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936-08-06",
+      "dateVerified": true,
+      "place": "Sítio Guarda, Cimbres, Pesqueira, Brazil",
+      "title": "First reported apparition",
+      "text": "Maria da Conceição Silva (16) and Maria da Luz Teixeira de Carvalho (13) report seeing a woman with a child on a rock of the Serra do Ororubá while gathering castor beans; in later reported dialogues the figure, asked who she was, answers 'Eu sou a graça' ('I am the grace'). Pilgrims begin arriving the next day, per the shrine's account.",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "aci-carta-pastoral-2021",
+        "santuario-historia"
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936-08-15",
+      "dateVerified": false,
+      "place": "Pesqueira, Brazil",
+      "title": "The Diocese of Pesqueira opens an inquiry",
+      "text": "After the reports reach the diocese, Bishop Adalberto Accioli Sobral designates his secretary, Fr. José Kehrle, to investigate the events and draft an opinion (parecer) on the credibility of the accounts, following canonical procedure. Devotional transcriptions date Kehrle's first recorded interrogation of Maria da Luz to 15 August 1936.",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "salvemariaimaculada-cimbres"
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936-08-31",
+      "dateVerified": true,
+      "place": "Sítio Guarda, Cimbres, Pesqueira, Brazil",
+      "title": "Mass gathering at the site; clergy divided",
+      "text": "On a date the seers said the apparition itself had appointed, a crowd — over 5,000 pilgrims, per the shrine's account — gathers at the site; Kehrle's diary records the message 'Brazil is saved, communism is not coming any more'. The same day Msgr. Elyseu Duarte Diniz, after questioning the girls separately, declares he believes none of it, an early sign of the split Kehrle's diary describes among clergy and faithful.",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "santuario-historia"
+      ]
+    },
+    {
+      "year": 1940,
+      "date": "1940-12",
+      "dateVerified": false,
+      "place": "Garanhuns, Brazil",
+      "title": "Maria da Luz enters religious life",
+      "text": "Maria da Luz enters the Damas da Instrução Cristã (Religious of Christian Instruction), taking the name Irmã Adélia; the December 1940 date rests on a devotional source, while Catholic press gives her perpetual profession as 1946. Her fellow seer Maria da Conceição remains a laywoman, and the academic literature notes her later 'silencing' — her subsequent life is thinly documented.",
+      "sources": [
+        "salvemariaimaculada-cimbres",
+        "rbhr-moura-lopes-2023",
+        "aci-fase-diocesana-2024"
+      ]
+    },
+    {
+      "year": 1941,
+      "date": "1941",
+      "dateVerified": true,
+      "place": "Pesqueira, Brazil",
+      "title": "Kehrle's favorable report is completed — and no ruling follows",
+      "text": "Fr. José Kehrle completes his 'Manuscripto', a diary-report concluding favorably on the reported apparitions; it becomes the principal source for later study. No formal diocesan judgment is documented: the 2023 academic study of the case concludes the cult was legitimated by devotees 'without major institutional interference from the local Curia or the Roman Curia', and describes strategies of silencing by the hierarchy — Kehrle kept his opinion unpublished under obedience. Devotional literature (Heralds of the Gospel) goes further, reporting a campaign of suppression that included police pressure and roughly fifty years of imposed silence on the seers and on Kehrle; that characterization is theirs.",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "arautos-cimbres"
+      ]
+    },
+    {
+      "year": 1942,
+      "date": "1942",
+      "dateVerified": false,
+      "place": "Cimbres, Pesqueira, Brazil",
+      "title": "An image of Nossa Senhora das Graças is enthroned in the chapel",
+      "text": "Per the shrine's own history, an image of Nossa Senhora das Graças donated by Odete Berardo is enthroned in the small chapel that Arthur Teixeira de Carvalho, Maria da Luz's father, had built near the site. Single devotional source; date unverified elsewhere.",
+      "sources": [
+        "santuario-historia"
+      ]
+    },
+    {
+      "year": 1985,
+      "date": "1985",
+      "dateVerified": true,
+      "place": "Cimbres, Pesqueira, Brazil",
+      "title": "Irmã Adélia speaks publicly; large pilgrimages begin",
+      "text": "Diagnosed with cancer described as terminal, Irmã Adélia breaks decades of silence and gives public testimony about the 1936 events; Catholic press reports that subsequent examinations found the cancer gone — a claim recorded here as reported, not verified. From this point organized pilgrimages of hundreds begin arriving, the first from Fortaleza, per the shrine's account.",
+      "sources": [
+        "aci-fase-diocesana-2024",
+        "santuario-historia"
+      ]
+    },
+    {
+      "year": 1998,
+      "date": "1998-10-20",
+      "dateVerified": false,
+      "place": "Cimbres, Pesqueira, Brazil",
+      "title": "The site is decreed a sanctuary",
+      "text": "Per the shrine's own history, Bishop Manoel Palmeira da Rocha of Pesqueira decrees the site the Santuário de Nossa Senhora das Graças. The date rests on the shrine's account alone; the decree text has not been reached.",
+      "sources": [
+        "santuario-historia"
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2001-04-30",
+      "dateVerified": true,
+      "place": "Pesqueira, Brazil",
+      "title": "The Xukuru Indigenous Land, which contains Cimbres, is homologated",
+      "text": "The Brazilian presidency homologates the demarcation of the 27,555-hectare Terra Indígena Xukuru on the Serra do Ororubá (decree published 2 May 2001). Vila de Cimbres and the sanctuary lie within this territory — the shrine's later history unfolds on demarcated Xukuru land, whose people also keep an older Marian devotion of their own, 'Mãe Tamain' (Nossa Senhora das Montanhas).",
+      "sources": [
+        "socioambiental-xukuru",
+        "corteidh-xucuru-2018",
+        "rbhr-moura-lopes-2023"
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "2021-10-02",
+      "dateVerified": true,
+      "place": "Aldeia Guarda, Cimbres, Pesqueira, Brazil",
+      "title": "Pastoral letter recognizes the 'presumed apparitions'",
+      "text": "Bishop José Luiz Ferreira Salles of Pesqueira signs, at Aldeia Guarda, a pastoral letter on the 'presumíveis aparições de Nossa Senhora da Graça': it states the reported events show 'elements, traces and signs that signal the great probability of the supernatural character' of the experience, finds the messages 'in deep consonance with the truths of the Christian faith', permits the devotion, and reserves interpretation of the events to the Church's magisterium and the diocesan bishop. Catholic press describes it as the Church's first official declaration on the case in 85 years.",
+      "sources": [
+        "aci-carta-pastoral-2021",
+        "wikipedia-aparicoes-cimbres"
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-22",
+      "dateVerified": true,
+      "place": "Rome / Pesqueira",
+      "title": "Nihil obstat for Irmã Adélia's cause; she becomes 'Serva de Deus'",
+      "text": "The Dicastery for the Causes of Saints grants the nihil obstat for opening the beatification cause of Irmã Adélia (Maria da Luz), who thereby receives the title Servant of God. Sources differ on the exact day — 22 February (feast of the Chair of St Peter, per Canção Nova) or 23 February 2024 (per other Catholic press). The act concerns the seer's cause, not the apparitions themselves.",
+      "sources": [
+        "cancaonova-serva-2024",
+        "aci-serva-de-deus-2024"
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "2024-10-13",
+      "dateVerified": true,
+      "place": "Pesqueira, Brazil",
+      "title": "Diocesan phase of Irmã Adélia's cause closes",
+      "text": "The diocesan phase of the beatification and canonization process of Irmã Adélia, opened on 10 March 2024, is closed on 13 October 2024 — the eleventh anniversary of her death — and the acts are sent to Rome, per Catholic press.",
+      "sources": [
+        "aci-fase-diocesana-2024"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Irmã Adélia (Maria da Luz Teixeira de Carvalho)",
+      "role": "Reported seer, aged 13 in 1936; later a sister of the Religious of Christian Instruction; gave public testimony from 1985; declared Servant of God in 2024",
+      "dates": "1922–2013",
+      "country": "Brazil",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "aci-fase-diocesana-2024"
+      ]
+    },
+    {
+      "name": "Maria da Conceição Silva",
+      "role": "Reported seer, aged 16 in 1936; remained a laywoman; the academic literature notes her later 'silencing' and her life is thinly documented",
+      "dates": "1920–1999",
+      "country": "Brazil",
+      "sources": [
+        "rbhr-moura-lopes-2023"
+      ]
+    },
+    {
+      "name": "Fr. José Kehrle",
+      "role": "German-born secretary of the Diocese of Pesqueira; conducted the 1936 diocesan inquiry and authored the favorable 'Manuscripto' (1941), the principal source on the events",
+      "dates": "1891–1978",
+      "country": "Germany / Brazil",
+      "sources": [
+        "rbhr-moura-lopes-2023"
+      ]
+    },
+    {
+      "name": "Dom Adalberto Accioli Sobral",
+      "role": "Bishop of Pesqueira 1934–1947; ordered the inquiry. Devotional literature reports he personally dismissed the case; the academic study records no formal ruling by him either way",
+      "dates": "1887–1951",
+      "country": "Brazil",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "catholic-hierarchy-pesqueira",
+        "arautos-cimbres"
+      ]
+    },
+    {
+      "name": "Frei Estevão von Roettger, OFM",
+      "role": "Franciscan who conducted complementary questioning of the seers; devotional and Catholic-press accounts report his diary attested to the events' authenticity",
+      "dates": "1877–1955",
+      "country": "Germany / Brazil",
+      "sources": [
+        "rbhr-moura-lopes-2023",
+        "aci-carta-pastoral-2021"
+      ]
+    },
+    {
+      "name": "Dom José Luiz Ferreira Salles, CSsR",
+      "role": "Bishop of Pesqueira; author of the 2 October 2021 pastoral letter recognizing the 'presumed apparitions' and petitioner for Irmã Adélia's cause",
+      "country": "Brazil",
+      "sources": [
+        "aci-carta-pastoral-2021",
+        "aci-serva-de-deus-2024"
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Diocese of Pesqueira",
+      "founded": "1910 (as Diocese of Floresta; see transferred to Pesqueira 1918)",
+      "place": "Pesqueira, Pernambuco, Brazil",
+      "relation": "The competent ecclesiastical authority over the reported apparitions and the shrine: it ran the 1936 inquiry, issued no documented ruling for decades, and published the 2021 pastoral letter.",
+      "sources": [
+        "catholic-hierarchy-pesqueira",
+        "rbhr-moura-lopes-2023",
+        "aci-carta-pastoral-2021"
+      ]
+    },
+    {
+      "name": "Santuário de Nossa Senhora das Graças (Cimbres)",
+      "founded": "1998 (decree reported by the shrine; chapel from the late 1930s–1940s)",
+      "place": "Aldeia Guarda, Vila de Cimbres, Pesqueira, Brazil",
+      "relation": "The diocesan shrine at the reported apparition site, attached to the parish of Nossa Senhora das Montanhas; destination of the annual 31 August pilgrimage feast.",
+      "sources": [
+        "santuario-historia"
+      ]
+    },
+    {
+      "name": "Povo Xukuru do Ororubá",
+      "founded": "Indigenous people of the Serra do Ororubá; territory homologated 2001",
+      "place": "Serra do Ororubá, Pesqueira, Brazil",
+      "relation": "The indigenous people on whose demarcated land Vila de Cimbres and the sanctuary stand. They are the territorial context of this chronology, not a party to the apparition claim; they keep an older Marian devotion of their own ('Mãe Tamain' / Nossa Senhora das Montanhas). Their wider history — including the land struggle — is documented elsewhere and is not this project's subject.",
+      "sources": [
+        "socioambiental-xukuru",
+        "rbhr-moura-lopes-2023"
+      ]
+    },
+    {
+      "name": "Religious of Christian Instruction (Damas da Instrução Cristã)",
+      "founded": "1817, Ghent (Belgium); in Brazil from the 19th–20th century",
+      "place": "Garanhuns / Recife, Brazil",
+      "relation": "The congregation Maria da Luz entered (as Irmã Adélia) around December 1940; it announced her recognition as Servant of God in 2024.",
+      "sources": [
+        "cancaonova-serva-2024",
+        "rbhr-moura-lopes-2023"
+      ]
+    }
+  ],
+  "disambiguation": {
+    "note": "An obscure, mostly devotional literature surrounds this subject; the distinctions below are the ones most often flattened in it.",
+    "items": [
+      {
+        "title": "Cimbres 1936 ≠ the Miraculous Medal (Paris, 1830)",
+        "text": "'Nossa Senhora das Graças' is also the Brazilian title of Our Lady of Graces of the Miraculous Medal (Rue du Bac, Paris, 1830). The Cimbres devotion uses the same title — per the inquiry records because the reported figure answered 'Eu sou a graça' — but it is a distinct reported apparition with its own history.",
+        "sources": [
+          "rbhr-moura-lopes-2023"
+        ]
+      },
+      {
+        "title": "The 2021 'recognition' is diocesan, not a Vatican approval of the apparitions",
+        "text": "The 2 October 2021 act is a pastoral letter of the Bishop of Pesqueira on 'presumed apparitions' asserting 'great probability' of supernatural character. The 2024 Vatican act (the Dicastery for the Causes of Saints' nihil obstat) concerns Irmã Adélia's beatification cause, not the apparitions — despite press headlines such as 'Vatican recognizes apparition'.",
+        "sources": [
+          "aci-carta-pastoral-2021",
+          "cancaonova-serva-2024"
+        ]
+      },
+      {
+        "title": "Documented silence ≠ a published condemnation",
+        "text": "Devotional tradition speaks of early Church rejection of Cimbres. What the sources actually show is narrower: no formal decree — negative or positive — has been located for the 1930s–40s; the academic study documents informal dismissal, non-publication of Kehrle's favorable report, and strategies of silencing, and devotional literature adds (on its own authority) police pressure and decades of imposed silence. This dataset records that absence rather than inventing a ruling.",
+        "sources": [
+          "rbhr-moura-lopes-2023",
+          "arautos-cimbres"
+        ]
+      },
+      {
+        "title": "Mãe Tamain ≠ Nossa Senhora das Graças de Cimbres",
+        "text": "The Xukuru devotion to Nossa Senhora das Montanhas, called 'Mãe Tamain', predates 1936 and is the patroness of the local parish; it is distinct from the 1936 apparition devotion, though both share the same mountain.",
+        "sources": [
+          "rbhr-moura-lopes-2023",
+          "socioambiental-xukuru"
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "rbhr-moura-lopes-2023",
+      "title": "O processo inquisitorial das aparições marianas em Cimbres: uma análise do Diário do Padre José Kehrle (1936)",
+      "url": "https://periodicos.uem.br/ojs/index.php/RbhrAnpuh/article/view/67759",
+      "publisher": "Revista Brasileira de História das Religiões (ANPUH), XVI:46, 2023 — Moura & Lopes Neto",
+      "publisherNote": "Peer-reviewed academic study, the strongest source reached for this dataset; based on Kehrle's 1941 manuscript in the diocesan archive.",
+      "type": "academic"
+    },
+    {
+      "id": "wikipedia-aparicoes-cimbres",
+      "title": "Aparições de Cimbres",
+      "url": "https://pt.wikipedia.org/wiki/Apari%C3%A7%C3%B5es_de_Cimbres",
+      "publisher": "Wikipédia (pt)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "aci-carta-pastoral-2021",
+      "title": "Bispo de Pesqueira reconhece 'presumíveis aparições' de Nossa Senhora em Cimbres",
+      "url": "https://www.acidigital.com/noticias/bispo-de-pesqueira-reconhece-presumiveis-aparicoes-de-nossa-senhora-em-cimbres-52442",
+      "publisher": "ACI Digital",
+      "type": "news",
+      "publisherNote": "EWTN's Portuguese-language Catholic news agency — a confessional outlet, cited here for its report of the bishop's act, not as an independent judgment of it."
+    },
+    {
+      "id": "aci-serva-de-deus-2024",
+      "title": "Irmã Adélia, vidente de Cimbres, é serva de Deus",
+      "url": "https://www.acidigital.com/noticia/57446/irma-adelia-vidente-de-cimbres-e-serva-de-deus",
+      "publisher": "ACI Digital",
+      "type": "news",
+      "publisherNote": "EWTN's Portuguese-language Catholic news agency — a confessional outlet, cited here for its report of the bishop's act, not as an independent judgment of it."
+    },
+    {
+      "id": "aci-fase-diocesana-2024",
+      "title": "Fase diocesana do processo de beatificação de irmã Adélia chega ao fim",
+      "url": "https://www.acidigital.com/noticia/59426/fase-diocesana-do-processo-de-beatificacao-de-irma-adelia-chega-ao-fim",
+      "publisher": "ACI Digital",
+      "type": "news",
+      "publisherNote": "EWTN's Portuguese-language Catholic news agency — a confessional outlet, cited here for its report of the bishop's act, not as an independent judgment of it."
+    },
+    {
+      "id": "cancaonova-serva-2024",
+      "title": "Irmã Adélia é reconhecida como 'Serva de Deus' pelo Vaticano",
+      "url": "https://noticias.cancaonova.com/igreja/irma-adelia-e-reconhecida-como-serva-de-deus-pelo-vaticano/",
+      "publisher": "Canção Nova Notícias",
+      "type": "news",
+      "publisherNote": "Brazilian Catholic media — a confessional outlet, cited for its reporting of dated acts rather than as an independent assessment."
+    },
+    {
+      "id": "santuario-historia",
+      "title": "História do Santuário",
+      "url": "https://santuarionsdasgracas.com.br/historia-do-santuario/",
+      "publisher": "Santuário Nossa Senhora das Graças — Cimbres",
+      "publisherNote": "The shrine's own account — devotional perspective, and the only source for several dates (1942 enthronement, 1998 sanctuary decree). The site returns 403 to non-browser clients; it loads with a normal browser User-Agent.",
+      "type": "website"
+    },
+    {
+      "id": "salvemariaimaculada-cimbres",
+      "title": "Cimbres — Aparições de Nossa Senhora",
+      "url": "https://salvemariaimaculada.com.br/cimbres-aparicoes-de-nossa-senhora/",
+      "publisher": "Salve Maria Imaculada",
+      "publisherNote": "A devotional site, labeled as such: a compilation carrying transcriptions of the interrogations; used only for detail dates, always flagged.",
+      "type": "website"
+    },
+    {
+      "id": "arautos-cimbres",
+      "title": "As aparições em Cimbres — Um maternal aviso",
+      "url": "https://revista.arautos.org/as-aparicoes-em-cimbres-um-maternal-aviso/",
+      "publisher": "Revista Arautos do Evangelho",
+      "type": "magazine",
+      "publisherNote": "The magazine of the Heralds of the Gospel — a devotional perspective, cited as such."
+    },
+    {
+      "id": "catholic-hierarchy-pesqueira",
+      "title": "Diocese of Pesqueira",
+      "url": "https://www.catholic-hierarchy.org/diocese/dpesq.html",
+      "publisher": "Catholic-Hierarchy.org",
+      "type": "database",
+      "publisherNote": "A reference database of dioceses and their ordinaries, compiled from published Church sources; useful for episcopal dates, not a Church act in itself."
+    },
+    {
+      "id": "socioambiental-xukuru",
+      "title": "Xukuru — Povos Indígenas no Brasil",
+      "url": "https://pib.socioambiental.org/pt/Povo:Xukuru",
+      "publisher": "Instituto Socioambiental",
+      "type": "encyclopedia",
+      "publisherNote": "An independent research organization documenting Indigenous territories; cited for the Xukuru context, not for the apparition claim."
+    },
+    {
+      "id": "corteidh-xucuru-2018",
+      "title": "Caso Povo Indígena Xucuru e seus membros vs. Brasil — Resumo oficial da sentença de 5 de fevereiro de 2018",
+      "url": "https://www.corteidh.or.cr/docs/casos/articulos/resumen_346_por.pdf",
+      "publisher": "Corte Interamericana de Direitos Humanos",
+      "type": "primary",
+      "publisherNote": "The court's own official summary of the judgment — primary for the ruling's date and content."
+    },
+    {
+      "id": "aleteia-adelia-2026",
+      "title": "A vidente Irmã Adélia que viu Nossa Senhora das Graças em Cimbres, Pernambuco",
+      "url": "https://pt.aleteia.org/2026/05/08/a-vidente-irma-adelia-que-viu-nossa-senhora-das-gracas-em-cimbres-pernambuco/",
+      "publisher": "Aleteia",
+      "type": "news",
+      "publisherNote": "Catholic media — a confessional outlet, cited for its reporting of dated acts rather than as an independent assessment."
+    }
+  ]
+}
