@@ -13,27 +13,33 @@ recorded as **reported events**. The dataset documents who reported what and
 when, and what Church authorities ruled and when, citing the ruling document.
 It never asserts the supernatural claim as fact.
 
-## Current state (2026-08-05, bootstrap)
+## Current state (2026-08, after the video-mining and widening wave)
 
-- 13 events, 6 figures, 14 references, plus facts, organizations, a
+- 31 events, 10 figures, 32 references, plus facts, organizations, a
   disambiguation block and an `approvalLadder`.
-- The **approval ladder** (adopted from the core template, 2026-08) renders at
-  the top of every page: five rungs, one per authority, with the shape of the
-  finding visible in it — a documented favourable investigators' report, a
-  1930s–40s bishop's ruling that is `reported-undocumented`, the 2021 pastoral
-  letter, `not-found` for Rome on the apparitions, and Irmã Adélia's cause as a
-  separate object. It never renders an overall verdict for the case.
-- The diocese's own 2021 **carta pastoral** is now cited as a primary source
-  (`carta-pastoral-2021`, PDF on the diocesan CDN). It supplies the letter's
-  verbatim wording, confirms Sobral's 1934–1947 episcopate and the investigators'
-  "parecer favorável", records the ecclesiastical silencing and the 1936 police
-  detention of Maria da Luz's father — and calls itself "a primeira resposta da
-  Igreja", the strongest evidence reached that no earlier ruling exists.
+- **Scope widened** per core#71: the chronology now runs from the 1676
+  Oratorian mission and the colonial Vila de Cimbres, through the erection of
+  the diocese (1910) and the state of it in 1936, to the 1936–37 sequence in
+  more detail, and on to Kehrle's death, the seers' later lives and deaths, the
+  shrine as it now stands, the 2023 transfer of Irmã Adélia's papers and the
+  Roman phase of her cause.
+- **Reported miracles are recorded as reports, never as events that happened.**
+  A `Reported cures` fact and a disambiguation item say so; the earliest cure
+  testimony that can be dated (31 August 1985) is recorded as a report with its
+  reporter; no cure at Cimbres has been recognised by any authority, and cures
+  get no approval-ladder rung.
+- The **approval ladder** renders at the top of every page, five rungs, one per
+  authority. The statuses are unchanged by this wave: the 1930s–40s diocesan
+  rung is still `reported-undocumented`, Rome on the apparitions is still
+  `not-found`.
 - Three locales (en / es / pt) built from `data/chronology.json`; the es and pt
   dictionaries are exact-key, hand-authored by the assistant and **not**
   human-reviewed (`_meta.humanReviewed: false`, and the page banner says so).
-  102 translatable strings per locale, zero missing, zero stale.
-- Gate green: `validate-data.js`, `node --test` (153), `build.js`.
+  179 translatable strings per locale, zero missing, zero stale.
+  `organizations[].founded` was added to `TRANSLATABLE_KEYS` in this wave: it
+  renders ("Fundada em …") and was leaving four English clauses on both
+  localized pages.
+- Gate green: `validate-data.js`, `build.js`, `node --test` (153).
 
 ## The central finding
 
@@ -57,19 +63,46 @@ here has seen. Irmã Adélia's cause has its own rung, labelled as a different
 object, so that a judgment about a person cannot be read as approval of the
 apparitions.
 
+The 2016 UNICAP dissertation adds a checked zero of its own that is worth
+repeating: it found no coverage of the events in the *Jornal do Commercio* or
+the *Diário de Pernambuco* for August–November 1936.
+
 This is a **thin-sourcing subject**. Much of the accessible literature is
 devotional and recycles itself; several dates rest on a single devotional source
 and are flagged in-page with a `?`. Provenance chains are noted where a source
-is derivative rather than documentary.
+is derivative rather than documentary — including that the lead author of the
+2023 academic study, Carlos André Silva de Moura, is president of the
+historical and archival commission of Irmã Adélia's beatification cause.
+
+The devotional **bibliography behind the videos** is now identified and cited:
+Paiva, *Aqui o Céu encontra-se com a Terra* (1987/1990, 10th ed. 2024); Lira,
+*O Diário do Silêncio* (2018) and *O Inquisidor de Cimbres* (2021); Silva,
+*Eu sou a Graça* (2016); and the one academic addition, Aguiar Neto's UNICAP
+dissertation (2016). Videos are in `references[]`, perspective-labeled as
+devotional commentary, and are cited only for attributed positions.
 
 ## Open questions
 
-- The 1930s–40s diocesan response: does a document exist, and where? The
-  diocesan archive of Pesqueira is the obvious place and is not online.
-- Exact 1936 apparition dates, and whether the reports continue into 1937 (the
-  accounts differ).
-- The seers' biographical dates beyond what the devotional literature asserts.
-- Whether any Roman act touches the case at all.
+- The 1930s–40s diocesan response: does a document exist, and where? Three
+  archives would settle it and none has been consulted — the diocesan archive
+  of Pesqueira (Kehrle's manuscript); the papers of the Pesqueira police
+  delegacy and the Pernambuco chefia de polícia, where an order for the 20
+  October 1936 detention of Artur Teixeira would be; and the Irmã Adélia
+  collection at the Instituto RIC in Recife since July 2023.
+- **Kehrle's diary may already be in print.** Ana Lígia Lira's *O Inquisidor de
+  Cimbres* (Apascentar, 2021) is presented by its author as a full
+  transcription of the diary and of Maria da Luz's letters, and Ione Paiva's
+  *Aqui o Céu encontra-se com a Terra* reproduces its material. Neither has been
+  read here. Collating them against the archive copy is the single most
+  valuable next step on this subject.
+- The sanctuary decree. The received date, 20 October 1998, is attributed to a
+  bishop who left office on 26 May 1993. Either the year or the bishop is wrong;
+  Ione Paiva says 1988 and says the signed decree is printed in her book.
+- Exact 1936–37 apparition dates. The 2016 UNICAP dissertation gives 26 February
+  1937 for the last at Sítio Guarda; the devotional accounts disagree with each
+  other and with it.
+- Whether any Roman act touches the case at all. The tradition's own leading
+  researcher says on camera that she has no evidence of one.
 
 ## Scope discipline
 

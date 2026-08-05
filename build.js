@@ -58,6 +58,14 @@ const TRANSLATABLE_KEYS = new Set([
   // Lane bases are prose and RENDER on the page (renderSwimlanes publishes each
   // lane's grounding), so they are translated like any other visible prose.
   'basis', 'intro',
+  // `organizations[].founded` reads as a date and is written as a sentence
+  // ("1817, Ghent (Belgium); in Brazil from the 19th–20th century"). It RENDERS
+  // — the card prints "Fundada em <founded>" — so leaving it out put four
+  // English clauses on both localized pages, invisible to every check because
+  // nothing demanded a translation for a key nobody had declared prose. A
+  // dataset whose `founded` really is a bare year costs one dictionary entry
+  // per organization; an English sentence on a Portuguese page costs a reader.
+  'founded',
 ]);
 
 // Interface strings the compiler emits itself (everything not sourced from data).
