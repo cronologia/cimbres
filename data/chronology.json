@@ -5,7 +5,7 @@
     "description": "An open, source-referenced chronology of the reported 1936 apparitions of Nossa Senhora das Graças at Cimbres (Pesqueira, Pernambuco, Brazil), the Church's response to them, and the shrine that grew at the site.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/cimbres/",
-    "lastUpdated": "2026-08-05",
+    "lastUpdated": "2026-08-06",
     "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded here as REPORTED events: the dataset documents who reported what and when, and what Church authorities ruled and when — it does not assert the supernatural claim as fact. The same rule governs the cures reported at the site: the datable thing is that a cure was REPORTED, by whom and when, or that an authority RECOGNISED one — and at Cimbres no recognition of any cure has been located, so no cure is recorded here as having occurred. The scope runs from the colonial founding of Cimbres, through the 1936–37 reports and the diocesan response, to the shrine, the seers' later lives and the beatification cause now in Rome; Xukuru history is cited only where a dated event here requires it and is not this project's subject. Sourcing is thin: much of the literature is devotional and recycles itself, several dates rest on a single devotional source and are flagged with a ? mark, and where a devotional book or video is the only witness to something the dataset names the witness. Contested claims are attributed to their authors. Corrections against primary sources are welcome.",
     "vizChips": [
       {
@@ -681,6 +681,13 @@
     "note": "An obscure, mostly devotional literature surrounds this subject; the distinctions below are the ones most often flattened in it.",
     "items": [
       {
+        "title": "Approved for pilgrimage is not the same as approved as an apparition — and that is the Church's rule, not this page's",
+        "text": "A shrine, a crowned image, a feast, indulgences, a papal visit: it is reasonable to read all that as the Church saying the apparition happened. It is not what the Church says it is doing, and since 2024 it says so in writing. The Dicastery for the Doctrine of the Faith's \"Norms for Proceeding in the Discernment of Alleged Supernatural Phenomena\" (17 May 2024) sets out six possible conclusions, and art. 23 makes the position explicit: \"as a rule, neither the Diocesan Bishop, nor the Episcopal Conferences, nor the Dicastery will declare that these phenomena are of supernatural origin\", though the Pope may authorise a special procedure. The ordinary favourable outcome is now \"Nihil obstat\", which art. 17 defines as acknowledging \"many signs of the action of the Holy Spirit\" in a spiritual experience \"without expressing any certainty about the supernatural authenticity of the phenomenon itself\". The document's own presentation adds that most shrines \"have never had an official declaration of the supernatural nature of the events\".\n\nThe reason is what a private revelation is. Public revelation closed with the apostles, so no apparition adds an article of faith, and even an approved one obliges no one to believe — the Congregation for the Doctrine of the Faith said exactly that when it published the third part of the Fátima secret in 2000. What a bishop is actually asked is a pastoral question: is this devotion safe, is it free of doctrinal error, is it bearing good fruit? That can be answered yes without answering the historical question, and usually is. The same acts are granted to devotions with no apparition behind them at all — Our Lady of the Rosary and Our Lady of Mount Carmel have feasts, crowned images and basilicas, and there is no reported apparition to approve.\n\nSo this page is not withholding approval; it is saying who gave which one, about what. Where a bishop did rule on an apparition, the ladder says so in his own words and marks the rung favourable — Lourdes 1862 and La Salette 1851 are quoted verbatim, Fátima 1930 is cited to its pastoral letter. What the ladder refuses to do is upgrade a crown into a verdict. If it did, a case a bishop examined and endorsed would look identical to a case nobody ever ruled on, because both have pilgrims; and the reverse error would follow just as easily, reading a Roman act against one seer's later writings as Rome condemning the apparition. Keeping the objects apart is the only way the chart carries information at all. Where the sources themselves say the Church's recognition is \"implicit\", the page records that word too, and does not promote it.",
+        "sources": [
+          "ddf-norms-2024"
+        ]
+      },
+      {
         "title": "Cimbres 1936 ≠ the Miraculous Medal (Paris, 1830)",
         "text": "'Nossa Senhora das Graças' is also the Brazilian title of Our Lady of Graces of the Miraculous Medal (Rue du Bac, Paris, 1830). The Cimbres devotion uses the same title — per the inquiry records because the reported figure answered 'Eu sou a graça' — but it is a distinct reported apparition with its own history.",
         "sources": [
@@ -996,6 +1003,14 @@
       "publisher": "rezar e amar (YouTube), c. 2023",
       "type": "video",
       "publisherNote": "Devotional commentary, labeled as such: a chapter-by-chapter narration whose first chapter names its own sources — Dom Rafael Maria's and Ana Lígia Lira's books, and behind them Kehrle's and Frei Estevão's papers. Chapter 12 is absent from the playlist as published; chapters 11 and 13 leave a gap covering the events between mid-September 1936 and the end of the reported apparitions. Transcripts preserved in the project archive."
+    },
+    {
+      "id": "ddf-norms-2024",
+      "title": "Norms for Proceeding in the Discernment of Alleged Supernatural Phenomena (17 May 2024)",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240517_norme-fenomeni-soprannaturali_en.html",
+      "publisher": "Dicastery for the Doctrine of the Faith, Holy See",
+      "publisherNote": "The Church's current procedure for judging reported apparitions, in force since 19 May 2024; its art. 27 entirely replaces the norms of 25 February 1978. Read in full for this dataset. Cited here for the rule it states rather than for anything it decides about this case: it is not applied retroactively, and no case in this chronology was judged under it.",
+      "type": "official"
     }
   ]
 }
