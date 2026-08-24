@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-24",
   "snapshots": {
     "https://anec.org.br/noticias/processo-de-beatificacao-e-canonizacao-de-irma-adelia-avanca-no-vaticano-com-entrega-de-documentos-e-encontro-com-o-papa-francisco/": {
       "refId": "anec-fase-romana-2024",
@@ -44,6 +44,12 @@
       "timestamp": "20260520093320",
       "checkedAt": "2026-08-10"
     },
+    "https://pt.aleteia.org/2026/05/08/a-vidente-irma-adelia-que-viu-nossa-senhora-das-gracas-em-cimbres-pernambuco/": {
+      "refId": "aleteia-adelia-2026",
+      "archiveUrl": "https://web.archive.org/web/20260810080728/https://pt.aleteia.org/2026/05/08/a-vidente-irma-adelia-que-viu-nossa-senhora-das-gracas-em-cimbres-pernambuco/",
+      "timestamp": "20260810080728",
+      "checkedAt": "2026-08-24"
+    },
     "https://pt.wikipedia.org/wiki/Apari%C3%A7%C3%B5es_de_Cimbres": {
       "refId": "wikipedia-aparicoes-cimbres",
       "archiveUrl": "https://web.archive.org/web/20251214201032/https://pt.wikipedia.org/wiki/Apari%C3%A7%C3%B5es_de_Cimbres",
@@ -55,6 +61,12 @@
       "archiveUrl": "https://web.archive.org/web/20251224054434/https://pt.wikipedia.org/wiki/Pesqueira",
       "timestamp": "20251224054434",
       "checkedAt": "2026-08-10"
+    },
+    "https://revista.arautos.org/as-aparicoes-em-cimbres-um-maternal-aviso/": {
+      "refId": "arautos-cimbres",
+      "archiveUrl": "https://web.archive.org/web/20260810090347/https://revista.arautos.org/as-aparicoes-em-cimbres-um-maternal-aviso/",
+      "timestamp": "20260810090347",
+      "checkedAt": "2026-08-24"
     },
     "https://salvemariaimaculada.com.br/cimbres-aparicoes-de-nossa-senhora/": {
       "refId": "salvemariaimaculada-cimbres",
@@ -68,11 +80,23 @@
       "timestamp": "20250721210339",
       "checkedAt": "2026-08-10"
     },
+    "https://santuarionsdasgracas.com.br/maria-da-conceicao-silva/": {
+      "refId": "santuario-conceicao",
+      "archiveUrl": "https://web.archive.org/web/20260824072111/https://santuarionsdasgracas.com.br/maria-da-conceicao-silva/",
+      "timestamp": "20260824072111",
+      "checkedAt": "2026-08-24"
+    },
     "https://santuarionsdasgracas.com.br/pe-joseph-kehrle/": {
       "refId": "santuario-kehrle",
       "archiveUrl": "https://web.archive.org/web/20260107071537/https://santuarionsdasgracas.com.br/pe-joseph-kehrle/",
       "timestamp": "20260107071537",
       "checkedAt": "2026-08-10"
+    },
+    "https://tede2.unicap.br/handle/tede/395": {
+      "refId": "unicap-aguiar-neto-2016",
+      "archiveUrl": "https://web.archive.org/web/20260824071952/https://tede2.unicap.br/items/c08119c7-56f9-45f3-9cf4-5cdec7fe4e09",
+      "timestamp": "20260824071952",
+      "checkedAt": "2026-08-24"
     },
     "https://www.a12.com/academia/noticias/lancamento-eu-sou-a-graca-as-aparicoes-de-nossa-senhora-das-gracas-em-pernambuco": {
       "refId": "silva-eu-sou-a-graca-2016",
@@ -121,6 +145,18 @@
       "archiveUrl": "https://web.archive.org/web/20260810081246/https://www.diariodepernambuco.com.br/vida-urbana/2026/08/11720064-aparicao-de-nossa-senhora-das-gracas-em-cimbres-completa-90-anos-de-devocao.html",
       "timestamp": "20260810081246",
       "checkedAt": "2026-08-10"
+    },
+    "https://www.institutoric.org/noticias/cerimonia-de-doacao-de-registros-historicos-de-irma-adelia-ao-instituto-e-celebrada": {
+      "refId": "institutoric-doacao-2023",
+      "archiveUrl": "https://web.archive.org/web/20260810081118/https://institutoric.org/noticias/cerimonia-de-doacao-de-registros-historicos-de-irma-adelia-ao-instituto-e-celebrada",
+      "timestamp": "20260810081118",
+      "checkedAt": "2026-08-24"
+    },
+    "https://www.skoob.com.br/livro/12084420": {
+      "refId": "lira-inquisidor-2021",
+      "archiveUrl": "https://web.archive.org/web/20260824072036/https://www.skoob.com.br/pt/login?callbackUrl=%2Fpt%2Flivro%2F12084420",
+      "timestamp": "20260824072036",
+      "checkedAt": "2026-08-24"
     },
     "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240517_norme-fenomeni-soprannaturali_en.html": {
       "refId": "ddf-norms-2024",
