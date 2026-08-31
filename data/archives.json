@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-24",
+  "updatedAt": "2026-08-31",
   "snapshots": {
     "https://anec.org.br/noticias/processo-de-beatificacao-e-canonizacao-de-irma-adelia-avanca-no-vaticano-com-entrega-de-documentos-e-encontro-com-o-papa-francisco/": {
       "refId": "anec-fase-romana-2024",
@@ -79,6 +79,12 @@
       "archiveUrl": "https://web.archive.org/web/20250721210339/https://santuarionsdasgracas.com.br/historia-do-santuario/",
       "timestamp": "20250721210339",
       "checkedAt": "2026-08-10"
+    },
+    "https://santuarionsdasgracas.com.br/irma-adelia/": {
+      "refId": "santuario-irma-adelia",
+      "archiveUrl": "https://web.archive.org/web/20260824072156/https://santuarionsdasgracas.com.br/irma-adelia/",
+      "timestamp": "20260824072156",
+      "checkedAt": "2026-08-31"
     },
     "https://santuarionsdasgracas.com.br/maria-da-conceicao-silva/": {
       "refId": "santuario-conceicao",
