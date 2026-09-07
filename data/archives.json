@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-07",
   "snapshots": {
     "https://anec.org.br/noticias/processo-de-beatificacao-e-canonizacao-de-irma-adelia-avanca-no-vaticano-com-entrega-de-documentos-e-encontro-com-o-papa-francisco/": {
       "refId": "anec-fase-romana-2024",
@@ -169,6 +169,18 @@
       "archiveUrl": "https://web.archive.org/web/20260724130748/https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240517_norme-fenomeni-soprannaturali_en.html",
       "timestamp": "20260724130748",
       "checkedAt": "2026-08-10"
+    },
+    "https://www.youtube.com/live/9Li2dA1Lt3w": {
+      "refId": "video-live-ana-ligia-lira",
+      "archiveUrl": "https://web.archive.org/web/20260907122908/https://www.youtube.com/live/9Li2dA1Lt3w",
+      "timestamp": "20260907122908",
+      "checkedAt": "2026-09-07"
+    },
+    "https://youtu.be/4JfOZJL3SLo": {
+      "refId": "video-jornada-e3a020-ione-paiva",
+      "archiveUrl": "https://web.archive.org/web/20260907122800/https://www.youtube.com/watch?v=4JfOZJL3SLo&feature=youtu.be",
+      "timestamp": "20260907122800",
+      "checkedAt": "2026-09-07"
     }
   }
 }
