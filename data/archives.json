@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-27",
   "snapshots": {
     "https://anec.org.br/noticias/processo-de-beatificacao-e-canonizacao-de-irma-adelia-avanca-no-vaticano-com-entrega-de-documentos-e-encontro-com-o-papa-francisco/": {
       "refId": "anec-fase-romana-2024",
@@ -181,6 +181,12 @@
       "archiveUrl": "https://web.archive.org/web/20260907122800/https://www.youtube.com/watch?v=4JfOZJL3SLo&feature=youtu.be",
       "timestamp": "20260907122800",
       "checkedAt": "2026-09-07"
+    },
+    "https://youtu.be/yuVIJxy9EX8": {
+      "refId": "video-anima-252-ione-paiva",
+      "archiveUrl": "https://web.archive.org/web/20260927175624/https://www.youtube.com/watch?v=yuVIJxy9EX8&feature=youtu.be",
+      "timestamp": "20260927175624",
+      "checkedAt": "2026-09-27"
     }
   }
 }
