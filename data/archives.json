@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "snapshots": {
     "https://anec.org.br/noticias/processo-de-beatificacao-e-canonizacao-de-irma-adelia-avanca-no-vaticano-com-entrega-de-documentos-e-encontro-com-o-papa-francisco/": {
       "refId": "anec-fase-romana-2024",
@@ -175,6 +175,12 @@
       "archiveUrl": "https://web.archive.org/web/20260907122908/https://www.youtube.com/live/9Li2dA1Lt3w",
       "timestamp": "20260907122908",
       "checkedAt": "2026-09-07"
+    },
+    "https://www.youtube.com/playlist?list=PL_6gXqAZWGAwOo9tdNxVOXc2umLk62dnn": {
+      "refId": "video-serie-rezar-e-amar",
+      "archiveUrl": "https://web.archive.org/web/20260921124447/https://www.youtube.com/playlist?list=PL_6gXqAZWGAwOo9tdNxVOXc2umLk62dnn",
+      "timestamp": "20260921124447",
+      "checkedAt": "2026-09-28"
     },
     "https://youtu.be/4JfOZJL3SLo": {
       "refId": "video-jornada-e3a020-ione-paiva",
